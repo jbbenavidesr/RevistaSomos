@@ -80,6 +80,10 @@ nav a:focus {
     background-color: #D3D3D3;
 }
 
+.current-page {
+    background-color: #D3D3D3;
+}
+
 nav::before {
     content: '';
     height: 2px;
