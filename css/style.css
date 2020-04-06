@@ -78,6 +78,23 @@ nav {
     text-align: justify;
 }
 
+.modern-life-title {
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 6px 6px 3px #C3C3C3;
+}
+
+.modern-life-post-title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.modern-life-post-body {
+    text-align: justify;
+    font-size: .825rem;
+}
+
 /* ----------
      Layout 
    ---------- */
@@ -231,7 +248,7 @@ nav::after {
     .article-image {
         order: -2;
         width: 100%;
-        min-height: 250px;
+        max-height: 300px;
         object-fit: cover;
     }  
 }
@@ -265,3 +282,44 @@ nav::after {
     margin-bottom: .5em;
 }
 
+/* Vida Moderna */
+
+.modern-life {
+    padding: 1.5em;
+    margin: 1em;
+    background-color: #EBEBEB;
+    border-radius: 1em;
+}
+
+.modern-life-image {
+    margin: 1em 0;
+    width: 100%;
+}
+
+.modern-life-post {
+    padding: 1em 0;
+    border-bottom: 2px dashed #707070;
+}
+
+.modern-life-post:last-child {
+    border: none;
+}
+
+@media (min-width: 700px){
+    .modern-life-post {
+        width: 48%;
+        border-bottom: none;
+        border-right: 2px dashed #707070;
+        padding: .5em 2em;
+    }
+
+    .modern-life-post:first-child {
+        padding-left: 0;
+    }
+
+    .modern-life-image {
+        
+        max-height: 200px;
+        object-fit: cover;        
+    }
+}
