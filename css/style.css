@@ -299,6 +299,8 @@ nav::after {
 .modern-life-post {
     padding: 1em 0;
     border-bottom: 2px dashed #707070;
+    display: flex;
+    flex-direction: column;
 }
 
 .modern-life-post:last-child {
@@ -318,7 +320,7 @@ nav::after {
     }
 
     .modern-life-image {
-        
+        order: -1;
         max-height: 200px;
         object-fit: cover;        
     }
