@@ -53,10 +53,10 @@ nav {
 .article-read-more,  
 .article-author {
     font-size: .875rem;
-    margin: 1em 0;
 }
 
 .article-read-more {
+    margin: 1em 0;
     font-weight: 700;
     color: #3c3c3c;
     text-decoration: none;
@@ -70,6 +70,7 @@ nav {
 }
 
 .article-author {
+    margin-bottom: 1em;
     font-weight: 300;
 }
 
@@ -78,11 +79,17 @@ nav {
     text-align: justify;
 }
 
+.side-section-title {
+    font-size: 2rem;
+    text-shadow: 3px 3px 3px #C3C3C3;
+    text-transform: uppercase;
+}
+
 .modern-life-title {
     font-size: 2rem;
     text-transform: capitalize;
     letter-spacing: 1px;
-    text-shadow: 6px 6px 3px #C3C3C3;
+    
 }
 
 .modern-life-post-title {
@@ -254,6 +261,10 @@ nav::after {
 }
 
 /*  Sidebar */
+aside {
+    display: flex;
+    flex-direction: column;
+}
 
 .sidebar-widget {
     border-left: .5em solid #EBEBEB;
@@ -282,6 +293,13 @@ nav::after {
     margin-bottom: .5em;
 }
 
+.side-section {
+    border: dashed 3px #EBEBEB;
+    border-radius: 2em;
+}
+
+
+
 /* Vida Moderna */
 
 .modern-life {
@@ -308,6 +326,14 @@ nav::after {
 }
 
 @media (min-width: 700px){
+    #about-us {
+        order: -2;
+    }
+
+    #anterior {
+        order: -1;
+    }
+
     .modern-life-post {
         width: 48%;
         border-bottom: none;
