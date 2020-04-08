@@ -34,11 +34,9 @@ p {
     padding: 0;
 }
 
-
-h1 {
-    font-size: 3.5rem;
-    font-weight: 200;
-    text-transform: uppercase;
+.time-date {
+    text-align: center;
+    font-weight: 700;
 }
 
 a {
@@ -130,9 +128,16 @@ header {
     /* box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.75); */
 }
 
+.header-logo {
+    align-items: center;
+}
+
 .logo{
     width: 10em;
-    margin: 1em auto;
+}
+
+.time-date {
+    margin: 1em 0;
 }
 
 .logo a:hover,
@@ -198,8 +203,12 @@ nav::after {
         flex-direction: row;
     }
     
-    .logo {
-        margin: 1em 0;
+    .header-logo {
+        margin: 1em;
+    }
+
+    .time-date {
+        margin: 0;
     }
 
     nav ul {
