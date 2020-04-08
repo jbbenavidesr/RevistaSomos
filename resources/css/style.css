@@ -16,6 +16,13 @@ img {
     margin-bottom: 1em;
 }
 
+/* 
+Colors: pink: #fa1e5c
+        black: #000
+        light gray: #d3d3d3
+        dark grey: #3c3c3c
+*/
+
 /* -----------
    Typography 
    ----------- */
@@ -123,12 +130,13 @@ header {
     /* box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.75); */
 }
 
-.title{
-    text-align: center;
+.logo{
+    width: 10em;
+    margin: 1em auto;
 }
 
-.title a:hover,
-.title a:focus {
+.logo a:hover,
+.logo a:focus {
     text-decoration: none;
 }
 
@@ -190,8 +198,8 @@ nav::after {
         flex-direction: row;
     }
     
-    .title {
-        text-align: left;
+    .logo {
+        margin: 1em 0;
     }
 
     nav ul {
@@ -261,7 +269,7 @@ nav::after {
     .article-image {
         order: -2;
         width: 100%;
-        max-height: 300px;
+        height: 80%;
         object-fit: cover;
     }  
 }
