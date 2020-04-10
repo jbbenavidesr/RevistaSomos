@@ -214,6 +214,14 @@ footer {
 }
 
 .invite,
+.nav-footer,
+.social-media {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: #C3C3C3 solid 2px;
+}
+
+.invite,
 .social-media {
     display: flex;
     flex-direction: column;
@@ -292,6 +300,7 @@ footer h3 {
     .nav-footer,
     .social-media {
         width: 30%; 
+        border: none;
     }
 }
 
@@ -360,16 +369,23 @@ aside {
     padding: 1em;
 }
 
+.widget-title {
+    font-size: 1.7rem;
+    padding-bottom: .5em;
+}
+
 .widget-recent-post {
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid #EBEBEB;
+    padding-bottom: 1em;
     margin-bottom: 1em;
 }
 
 .widget-recent-post:last-child {
     border: 0;
     margin: 0;
+    padding: 0;
 }
 
 .widget-recent-post-title {
@@ -379,6 +395,18 @@ aside {
 .widget-image {
     order: -1;
     margin-bottom: .5em;
+}
+
+.widget-link:hover,
+.widget-link:focus {
+    text-decoration: none;
+} 
+
+.widget-link:hover h2,
+.widget-link:focus h2,
+.widget-link:hover h3,
+.widget-link:focus h3 {
+    text-decoration: underline;
 }
 
 .side-section {
@@ -405,6 +433,10 @@ aside {
 .modern-life-post {
     padding: 1em 0;
     border-bottom: 2px dashed #707070;
+    
+}
+
+.modern-life-post a {
     display: flex;
     flex-direction: column;
 }
