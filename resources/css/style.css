@@ -49,7 +49,7 @@ a:focus {
     text-decoration: underline;
 }
 
-nav {
+.nav-header {
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.4;
@@ -145,12 +145,12 @@ header {
     text-decoration: none;
 }
 
-nav {
+.nav-header {
     position: relative;
     padding: .2em 0;
 }
 
-nav ul {
+.nav-header ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -160,18 +160,18 @@ nav ul {
     align-items: center;
 }
 
-nav li {
+.nav-header li {
     margin-bottom: .5em;
 }
 
-nav a {
+.nav-header a {
     padding: .3em .6em;
     text-transform: capitalize;
     letter-spacing: 2px;
 }
 
-nav a:hover,
-nav a:focus {
+.nav-header a:hover,
+.nav-header a:focus {
     background-color: #D3D3D3;
     text-decoration: none;
 }
@@ -180,7 +180,7 @@ nav a:focus {
     background-color: #D3D3D3;
 }
 
-nav::before {
+.nav-header::before {
     content: '';
     height: 2px;
     background-color: #000;
@@ -189,13 +189,72 @@ nav::before {
     top: -5px;
 }
 
-nav::after {
+.nav-header::after {
     content: '';
     height: 2px;
     background-color: #000;
     width: 100%;
     position: absolute;
     bottom: -5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+    background-color: #EBEBEB;
+}
+
+.container-footer {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center; 
+    /* justify-content: space-evenly;    */
+}
+
+.invite,
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    font-size: 1.3rem;
+    margin-bottom: .5em;
+}
+
+.invite a,
+.social-media a {
+    display: block;
+    font-weight: 700;
+    background-color: #C3C3C3;
+    border: #000 solid 3px;
+    border-radius: 2em;
+    padding: .3em .6em;
+    margin: .5em 1.5em;
+}
+
+.invite a:hover,
+.social-media a:hover {
+    background-color: #707070;
+    text-decoration: none;
+}
+
+.nav-footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-footer li {
+    margin-bottom: .2em;
+}
+
+.copyright {
+    color: #707070;
 }
 
 @media (min-width:700px) {
@@ -211,11 +270,11 @@ nav::after {
         margin: 0;
     }
 
-    nav ul {
+    .nav-header ul {
         flex-direction: row;
     }
     
-    nav li {
+    .nav-header li {
         margin-bottom: 0;
     }
 
@@ -227,6 +286,12 @@ nav::after {
         width: 25%;
         min-width: 200px;
         margin-left: 1em;
+    }
+    
+    .invite,
+    .nav-footer,
+    .social-media {
+        width: 30%; 
     }
 }
 
