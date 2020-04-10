@@ -319,7 +319,7 @@ footer h3 {
 .article-recent {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .article-recent-main {
@@ -371,7 +371,7 @@ aside {
 
 .widget-title {
     font-size: 1.7rem;
-    padding-bottom: .5em;
+    padding-bottom: .3em;
 }
 
 .widget-recent-post {
@@ -467,7 +467,7 @@ aside {
 
     .modern-life-image {
         order: -1;
-        max-height: 200px;
+        max-height: 180px;
         object-fit: cover;        
     }
 }
