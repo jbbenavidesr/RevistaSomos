@@ -15,6 +15,14 @@ img {
     object-fit: cover;
 }
 
+.img-top {
+    object-position: top;
+}
+
+.img-bottom {
+    object-position: bottom;
+}
+
 /* 
 Colors: pink: #fa1e5c
         black: #000
@@ -202,6 +210,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 2em 0;
+    margin-top: 1em;
     background-color: #EBEBEB;
 }
 
@@ -429,15 +438,18 @@ aside {
     width: 100%;
 }
 
-.modern-life-post {
+.small-post {
     padding: 1em 0;
-    border-bottom: 2px dashed #707070;
-    
 }
 
-.modern-life-post a {
+.small-post a {
     display: flex;
     flex-direction: column;
+}
+
+.modern-life-post {
+    border-bottom: 2px dashed #707070;
+    
 }
 
 .modern-life-post:last-child {
@@ -453,14 +465,17 @@ aside {
         order: -1;
     }
 
-    .modern-life-post {
+    .small-post {
         width: 48%;
         border-bottom: none;
-        border-right: 2px dashed #707070;
         padding: .5em 2em;
     }
 
-    .modern-life-post:first-child {
+    .modern-life-post {
+        border-right: 2px dashed #707070;   
+    }
+
+    .small-post:first-child {
         padding-left: 0;
     }
 
