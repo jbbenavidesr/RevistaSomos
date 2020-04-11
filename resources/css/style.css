@@ -524,6 +524,10 @@ aside {
     border: #000 solid 5px;
 }
 
+.img-top {
+    object-position: top;
+}
+
 .author-name {
     font-weight: 700;
     text-transform: capitalize;
