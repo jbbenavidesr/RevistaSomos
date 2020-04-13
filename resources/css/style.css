@@ -522,8 +522,24 @@ aside {
     margin: 1em;
 }
 
+.content-poem {
+    text-align: center;
+}
+
 .content p {
     margin-bottom: 1em;
+}
+
+.content-poem-sara p{
+    margin: 0;
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
+.content-poem-sara .first-p {
+    margin-bottom: 1em;
+    text-indent: 0;
+    padding: 0;
 }
 
 .container-author {
