@@ -333,6 +333,11 @@ footer h3 {
     box-shadow:none;
 }
 
+.gallery-title {
+    font-size: 2.5rem;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.25)
+}
+
 .gallery-cell.is-selected{
     transform:scale(1);
     filter:blur(0px);
@@ -730,7 +735,7 @@ aside {
 
 .contacto-main {
     text-align: center;
-    height: 30vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -740,8 +745,8 @@ aside {
 }
 
 .contacto-link {
-    display: inline-block;
-    padding: 1em 2em;
+    display: block;
+    padding: .7em 0em;
     background-color: #D3D3D3;
     border-radius: 2.5em;
     margin: 1em 0;
