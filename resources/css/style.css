@@ -509,6 +509,14 @@ aside {
     border: none;
 }
 
+.poem-post {
+    text-align: center;
+    margin: 1em;
+    padding: 1em 0;
+    background-color: #D3D3D3;
+    border-radius: 2em;
+}
+
 @media (min-width: 700px){
     #about-us {
         order: -2;
@@ -522,6 +530,10 @@ aside {
         width: 48%;
         border-bottom: none;
         padding: .5em 2em;
+    }
+
+    .poem-post {
+        padding: 1em 0;        
     }
 
     .modern-life-post {
