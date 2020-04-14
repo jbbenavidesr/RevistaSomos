@@ -475,8 +475,6 @@ aside {
     border-radius: 2em;
 }
 
-
-
 /* Vida Moderna */
 
 .modern-life {
@@ -676,4 +674,54 @@ aside {
     .article-ref {
         text-align: left;
     }
+}
+
+/*  Movie list  */
+
+.movie-container {
+    border: #D3D3D3 dashed 5px;
+    padding: .5em 2em;
+    border-radius: 2em;
+}
+
+.img-movie {
+    width: 100%;
+}
+
+.movie-title {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+}
+
+.movie-title-emph {
+    position: relative;
+    font-size: 1.2em;
+}
+
+
+.movie-container .movie-dir {
+    font-size: .9rem;
+    margin: 0;
+}
+
+.movie-year {
+    font-size: .8rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.movie-container .movie-length {
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.series-plat {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1em 0;
 }
