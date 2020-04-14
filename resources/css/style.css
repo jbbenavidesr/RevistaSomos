@@ -759,3 +759,12 @@ aside {
     color: #EBEBEB;
     transform: scale(1);
 }
+
+/*  Error */
+.error {
+    height: 50vh;
+}
+
+.error-title {
+    font-size: 3rem;
+}
