@@ -725,3 +725,37 @@ aside {
     text-align: center;
     margin: 1em 0;
 }
+
+/* Contacto */
+
+.contacto-main {
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed #D3D3D3 5px;
+    border-radius: 3em;
+    margin-bottom: 2em;
+}
+
+.contacto-link {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #D3D3D3;
+    border-radius: 2.5em;
+    margin: 1em 0;
+    border: #3c3c3c solid 3px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition:.2s all;
+    transform: scale(0.8);
+}
+
+.contacto-link:hover,
+.contacto-link:focus {
+    background-color: #3c3c3c;
+    color: #EBEBEB;
+    transform: scale(1);
+}
