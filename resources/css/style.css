@@ -326,9 +326,6 @@ footer h3 {
     border-radius: 1em;
     padding: .5em;
     transition:.2s all;
-}
-
-.gallery-cell {
     width: 95%;
     filter:blur(3px);
     opacity:.5;
@@ -515,6 +512,16 @@ aside {
     padding: 1em 0;
     background-color: #D3D3D3;
     border-radius: 2em;
+    transition:.2s all;
+    transform: scale(.95);
+}
+
+.poem-post:hover {
+    transform: scale(1);
+}
+
+.editorial-team {
+    text-align: center;
 }
 
 @media (min-width: 700px){
