@@ -779,3 +779,7 @@ aside {
     text-align: center;
     transform: scale(0.75);
 }
+
+.developer-name {
+    text-transform: none;
+}
