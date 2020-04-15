@@ -773,3 +773,12 @@ aside {
 .error-title {
     font-size: 3rem;
 }
+
+.small-contact {
+    justify-content: center;
+}
+
+.small-contact-item {
+    width: 30%;
+    padding: 2em;
+}
