@@ -776,9 +776,6 @@ aside {
 
 .small-contact {
     justify-content: center;
-}
-
-.small-contact-item {
-    width: 30%;
-    padding: 2em;
+    text-align: center;
+    transform: scale(0.75);
 }
